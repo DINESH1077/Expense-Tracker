@@ -18,11 +18,11 @@ addBtn.addEventListener('click', function() {
         return;
     }
     if (isNaN(amount) || amount <=0 ) {
-        alert('Please enter a valid amoun')
+        alert('Please enter a valid amount');
         return;
     }
     if(date === '') {
-        alert('Please select a date')
+        alert('Please select a date');
         return;
     }
     expenses.push({category, amount, date});
